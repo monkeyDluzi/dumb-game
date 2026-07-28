@@ -5,8 +5,7 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 
-    background-image: url("goofyb5.jpeg
-");
+    background-image: url("goofyb5.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,10 +16,10 @@ h1 {
 }
 
 #cookie {
-    font-size: 100px;
     border: none;
     background: none;
     cursor: pointer;
+    padding: 0;
     transition: transform 0.1s;
 }
 
@@ -32,22 +31,7 @@ h1 {
     transform: scale(0.9);
 }
 
-#cookie {
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 0;
-}
-
 #cookie img {
     width: 200px;
-    transition: transform 0.1s;
-}
-
-#cookie img:hover {
-    transform: scale(1.05);
-}
-
-#cookie img:active {
-    transform: scale(0.95);
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.4));and 
 }
