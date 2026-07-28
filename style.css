@@ -32,11 +32,22 @@ h1 {
     transform: scale(0.9);
 }
 
-body {
-      margin: 0;
-      min-height: 100vh;
-      background-image: url("gif/B10.gif");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+#cookie {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#cookie img {
+    width: 200px;
+    transition: transform 0.1s;
+}
+
+#cookie img:hover {
+    transform: scale(1.05);
+}
+
+#cookie img:active {
+    transform: scale(0.95);
+}
