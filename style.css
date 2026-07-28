@@ -1,7 +1,14 @@
 body {
+    margin: 0;
+    min-height: 100vh;
+
     text-align: center;
     font-family: Arial, sans-serif;
-    background: #ffe8a3;
+
+    background-image: url("gif/B10.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -23,3 +30,12 @@ h1 {
 #cookie:active {
     transform: scale(0.9);
 }
+
+body {
+      margin: 0;
+      min-height: 100vh;
+      background-image: url("gif/B10.gif");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
